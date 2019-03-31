@@ -38,21 +38,21 @@
       <div class="collapse navbar-collapse">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item ">
-              <i class="fa fa-envelope text-white"></i>
-              <span class="navbar-text topbar-text">email@email.com.br</span>
+              <i class="fa fa-envelope text-white pr-1"></i>
+              <span class="navbar-text topbar-text mb-2">email@email.com.br</span>
             </li>
             <li class="nav-item">
-              <i class="fa fa-phone text-white"></i
-              ><span class="navbar-text topbar-text">(xx)xxxx-xxxx</span>
+              <i class="fa fa-phone text-white pr-1"></i
+              ><span class="navbar-text topbar-text mb-2">(55)5555-5555</span>
             </li>
             <li class="nav-item">
-              <i class="fa fa-whatsapp text-white"></i
-              ><span class="navbar-text topbar-text">(xx)xxxx-xxxx</span>
+              <i class="fa fa-whatsapp text-white pr-1"></i
+              ><span class="navbar-text topbar-text mb-2">(55)5555-5555</span>
             </li>
           </ul>
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <span class="navbar-text topbar-text"
+              <span class="navbar-text topbar-text mb-2"
                 >Siga-nos nas redes sociais</span
               >
             </li>
@@ -163,7 +163,7 @@
                 <div class="card-block text-left pb-4">
                   <i class="fa fa-map-marker card-icon"></i>
                   <p class="card-text d-inline card-icon-paragraph mb-5">
-                    SEBRAE - R. 24 de Maio, 32, Centro São Paulo - SP
+                    SEBRAE - R. 24 de Maio, 32, Centro <span class="pl-3">São Paulo - SP</span>
                   </p>
                 </div>
                 <div class="card-block pb-4">
@@ -326,16 +326,26 @@
         <div class="row">
             <div class="col-12 d-flex justify-content-center">
                 <form class="form-inline">
-                    <div class="form-group mx-sm-2 mb-2">
-                        <label for="nome" class="sr-only">Nome</label>
-                        
-                        <input type="text" class="form-control form-control-custom" id="nome" placeholder="Digite seu Nome">
-                      </div>
-                    <div class="form-group mx-sm-2 mb-2">
-                      <label for="email" class="sr-only">Email</label>
-                      <input type="email" class="form-control form-control-custom" id="email" placeholder="Digite seu email">
+                  <div class="form-group mx-sm-2 mb-2">
+                      <div class="input-group">
+                          <div class="input-group-prepend">
+                            <span class="input-group-text" id="basic-addon1"><i class="fa fa-user text-white"></i></span>
+                          </div>
+                          <input type="text" class="form-control form-control-custom" placeholder="Digite seu nome" aria-label="Username" aria-describedby="basic-addon1">
+                        </div>
+                  </div>
+                   <div class="form-group mx-sm-2 mb-2">
+                      <div class="input-group">
+                          <div class="input-group-prepend">
+                            <span class="input-group-text" id="basic-addon2"><i class="fa fa-envelope text-white"></i></span>
+                          </div>
+                          <input type="text" class="form-control form-control-custom" placeholder="Digite seu Email" aria-label="Username" aria-describedby="basic-addon1">
+                        </div>
+                   </div>
+                   <button type="submit" class="btn btn-white-orange mb-2">Cadastrar</button>
                     </div>
-                    <button type="submit" class="btn btn-white-orange mb-2">Cadastrar</button>
+                    
+                   
                   </form>
                 </div>
             </div>

@@ -39,12 +39,12 @@ body {
   padding-top: 0 !important;
   padding-bottom: 0 !important;
   padding-left: 0 !important;
-  padding-right: 5px !important;
+  padding-right: 8px !important;
 }
 
 /*Hide top bar on small devices*/
 
-@media (max-width: 767px) {
+@media (max-width: 993px) {
   .hide-on-small {
     display: none;
   }
@@ -235,7 +235,7 @@ body {
   font-family: "Source Sans Pro", sans-serif;
   font-size: 12px;
   color: #6a737b;
-  font-weight: 800;
+  font-weight: normal;
 }
 
 /* Cards Azuis*/
@@ -337,7 +337,7 @@ body {
 .paragraph-1 {
   color: #6a737b;
   font-family: "Source Sans Pro";
-  font-weight: bold;
+  font-weight: normal;
   font-size: 14px;
 }
 
@@ -391,6 +391,16 @@ body {
   border: 1px solid #ffb094;
   background-color: #f08560;
   border-radius: 5px;
+  border: 1px solid #ffb094;
+  background-color: #f08560;
+  border-left-width: 0 !important;
+}
+
+#basic-addon1,
+#basic-addon2 {
+  height: 47px;
+  border: 1px solid #ffb094;
+  background-color: #f08560;
   border: 1px solid #ffb094;
   background-color: #f08560;
 }
