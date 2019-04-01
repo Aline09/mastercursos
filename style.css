@@ -433,3 +433,7 @@ body {
   color: #fff;
   font-weight: 400;
 }
+
+.icon-elo {
+  max-height: 24px;
+}
