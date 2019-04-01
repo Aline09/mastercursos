@@ -35,20 +35,20 @@
     ">
       <div class="container">
       <div class="collapse navbar-collapse">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item ">
-              <i class="fa fa-envelope text-white"></i>
-              <span class="navbar-text topbar-text">email@email.com.br</span>           
-            </li>
-            <li class="nav-item">
-              <i class="fa fa-phone text-white"></i
-              ><span class="navbar-text topbar-text">(xx)xxxx-xxxx</span>
-            </li>
-            <li class="nav-item">
-              <i class="fa fa-whatsapp text-white"></i
-              ><span class="navbar-text topbar-text">(xx)xxxx-xxxx</span>
-            </li>
-          </ul>
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item ">
+            <i class="fa fa-envelope text-white pr-1"></i>
+            <span class="navbar-text topbar-text mb-2">email@email.com.br</span>
+          </li>
+          <li class="nav-item">
+            <i class="fa fa-phone text-white pr-1"></i
+            ><span class="navbar-text topbar-text mb-2">(55)5555-5555</span>
+          </li>
+          <li class="nav-item">
+            <i class="fa fa-whatsapp text-white pr-1"></i
+            ><span class="navbar-text topbar-text mb-2">(55)5555-5555</span>
+          </li>
+        </ul>
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
               <span class="navbar-text topbar-text"
@@ -178,62 +178,75 @@
     </section>
 
    <!--Newsletter-->
-    <section class="newsletter background-image-2 p-5">
-        <div class="container">
-          <div class="row">
-            <div class="col-12 d-flex justify-content-center">
-                <h3 class="title-4">Cadastre-se e receba novidades no seu email</h3></div>
-            </div>
-            
-          <div class="row">
-              <div class="col-12 d-flex justify-content-center">
-                  <form class="form-inline">
-                      <div class="form-group mx-sm-2 mb-2">
-                          <label for="nome" class="sr-only">Nome</label>
-                          
-                          <input type="text" class="form-control form-control-custom" id="nome" placeholder="Digite seu Nome">
-                        </div>
-                      <div class="form-group mx-sm-2 mb-2">
-                        <label for="email" class="sr-only">Email</label>
-                        <input type="email" class="form-control form-control-custom" id="email" placeholder="Digite seu email">
-                      </div>
-                      <button type="submit" class="btn btn-white-orange mb-2">Cadastrar</button>
-                    </form>
-                  </div>
-              </div>
-           
-          </div>
+                   
+   <section class="newsletter background-image-2 p-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 d-flex justify-content-center">
+            <h3 class="title-4">Cadastre-se e receba novidades no seu email</h3></div>
         </div>
-      </section>
+        
+      <div class="row">
+          <div class="col-12 d-flex justify-content-center">
+              <form class="form-inline">
+                <div class="form-group mx-sm-2 mb-2">
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                          <span class="input-group-text" id="basic-addon1"><i class="fa fa-user text-white"></i></span>
+                        </div>
+                        <input type="text" class="form-control form-control-custom" placeholder="Digite seu nome" aria-label="Username" aria-describedby="basic-addon1">
+                      </div>
+                </div>
+                 <div class="form-group mx-sm-2 mb-2">
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                          <span class="input-group-text" id="basic-addon2"><i class="fa fa-envelope text-white"></i></span>
+                        </div>
+                        <input type="text" class="form-control form-control-custom" placeholder="Digite seu Email" aria-label="Username" aria-describedby="basic-addon1">
+                      </div>
+                 </div>
+                 <button type="submit" class="btn btn-white-orange mb-2">Cadastrar</button>
+                  </div>
+                  
+                 
+                </form>
+              </div>
+          </div>
+       
+      </div>
+    </div>
+  </section>
 
       <footer class="footer bg-azul p-5">
-        <div class="navbar navbar-fixed-bottom footer">
-          <div class="container">
-            <div class="col-md-12 col-lg-3 pb-4">
-                <div class="footer-logo"><img src="img/logo-azul.png" alt="" class="img-fluid"></div> 
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-2 col-lg-12 pt-1">
+              <img src="img/logo-azul.png" alt="" class="img-fluid">
             </div>
-            <div class="col-md-12 col-lg-5 pl-3"> <div class="d-flex flex-row align-middle">
-               
-                <div class="footer-text pr-2">Formas de Pagamento</div>
-                <div class="icon-footer">
-                  <img src="img/icone_visa.png" alt=""></div>
-                  <div class="icon-footer"> <img src="img/icone_master.png" alt=""></div>
-                 <div class="icon-footer"><img src="img/icone_hiper.png" alt=""></div>
-                  <div class="icon-footer"><img src="img/icone_elo.png" alt=""></div>
-                  <div class="icon-footer"><img src="img/icone_pagseguro.png" alt=""></div>
-                  
-                </div></div>
-                <div class="col-md-12 col-lg-4 pl-2">
-                  <div class="d-flex flex-row"><p class="footer-text pr-3">Siga-nos nas Redes Sociais</p>
-                    <a href=""><i class="fa fa-facebook text-white pr-1"></i></a>
-                    <a href=""><i class="fa fa-instagram text-white pr-1"></i></a>
-                    <a href=""><i class="fa fa-linkedin text-white"></i></a></div>
-                  
-                </div>
-           
+            <div class="col-xl-2 col-lg-3 pt-3">
+              <div class="footer-text float-xl-right">Formas de Pagamento</div>
+            </div>
+            <div class="col-xl-4 col-lg-9 pt-3">
+              <div class="icon-footer d-inline">
+                <img class="d-inline" src="img/icone_visa.png" alt=""></div>
+                <div class="icon-footer d-inline">
+                   <img class="d-inline" src="img/icone_master.png" alt=""></div>
+               <div class="icon-footer d-inline">
+                 <img class="d-inline"  src="img/icone_hiper.png" alt=""></div>
+                <div class="icon-footer d-inline">
+                  <img class="d-inline icon-elo"  src="img/icone_elo.png" alt=""></div>
+                <div class="icon-footer d-inline"><img class="d-inline"  src="img/icone_pagseguro.png" alt=""></div>
+            </div>
+            <div class="col-xl-2 col-lg-3 pt-3">
+              <p class="footer-text float-xl-right">Siga-nos nas Redes Sociais</p>
+            </div>
+            <div class="col-xl-1 col-lg-9 pt-lg-2">
+              <a href=""><i class="fa fa-facebook text-white pr-1 pt-lg-2 pt-sm-1"></i></a>
+              <a href=""><i class="fa fa-instagram text-white pr-1"></i></a>
+              <a href=""><i class="fa fa-linkedin text-white"></i></a>
             </div>
           </div>
-       </div>     
+        </div>
       </footer>
 
     <!--Scripts BootStrap-->
